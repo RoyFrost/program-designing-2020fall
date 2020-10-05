@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1600955777 source:e:\documents\study\2020fall\progranmming\projects\ex0101\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\zylib\zylib.h"
+
+1448588560 e:\documents\study\2020fall\progranmming\projects\zylib\zylib.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1520862953 source:e:\documents\study\2020fall\progranmming\projects\ex0101\zylib.c
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"zylib.h"
+
+1448588560 e:\documents\study\2020fall\progranmming\projects\ex0101\zylib.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
