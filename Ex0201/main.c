@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "..\zylib\zylib.c"
-#include "..\zylib\zylib.h"
 
 /*预先定义一些函数方便写*/
 int check(int num)
@@ -33,7 +32,7 @@ int main()
         n = GetIntegerFromKeyboard();
         printf("please set the number of space between:");
         m = GetIntegerFromKeyboard();
-        a = check(n)*check(m);
+        a = check(n)*check(m);//只有两个检查都成立以后a才会不为0
         if (a==FALSE) printf("plz input positive int correctly!\n");
         else break;
     }

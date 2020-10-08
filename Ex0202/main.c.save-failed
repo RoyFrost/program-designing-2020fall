@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "..\zylib\zylib.c"
+
+
+int printline(int length)
+{
+    for (int i = 0; i < length; i++) printf("-");
+    printf("\n");
+    return 0;
+}//打印分割线
+
+int main()
+{
+    int width = 38;
+    printf("   Nine-by-nine Multiplication Table  \n");
+    printline(width);
+    for (int i = 0; i < 9; i++)
+    {
+
+    }
+
+    return 0;
+}
