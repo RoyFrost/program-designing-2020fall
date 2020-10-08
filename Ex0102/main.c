@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "..\zylib\zylib.c"
-#include "..\zylib\zylib.h"
 
 
 int printline()
@@ -13,7 +12,7 @@ int printline()
     printf("\n");
     return 0;
 }
-/*Êä³ö·Ö¸îÏß*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½*/
 
 int main()
 {
@@ -23,9 +22,9 @@ int main()
     double area;
     double population;
     double GDP;
-    }country[5];//¶¨ÒåÒ»¸ö½á¹¹Ìå´æ´¢Ã¿Ò»ÐÐµÄÐÅÏ¢
+    }country[5];//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½á¹¹ï¿½ï¿½ï¿½æ´¢Ã¿Ò»ï¿½Ðµï¿½ï¿½ï¿½Ï¢
 
-    /*ÊÖ¶¯´æ´¢Êý¾Ý*/
+    /*ï¿½Ö¶ï¿½ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½*/
     country[0].name = "China"; country[0].area = 960.00; country[0].population = 135700.00; country[0].GDP = 9240.00;
     country[1].name = "Iceland"; country[1].area = 10.30; country[1].population = 32.30; country[1].GDP = 15.33;
     country[2].name = "India"; country[2].area = 297.47; country[2].population = 125200.00; country[2].GDP = 1877.00;
@@ -33,7 +32,7 @@ int main()
     country[4].name = "Maldive"; country[4].area = 0.03; country[4].population = 34.50; country[4].GDP = 2.30;
 
 
-    /*½á¹¹»¯Êä³ö*/
+    /*ï¿½á¹¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
     printline();
     printf("COUNTRY     AREA\(10K km2\)  POP.\(10K\)  GDP\(Billion$\)\n");
     printline();

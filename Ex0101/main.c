@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "..\zylib\zylib.h"
 #include "..\zylib\zylib.c"
 
 int main()
 {
-    double principal, interest, RoI, deposit;//±¾½ð¡¢ÀûÏ¢¡¢ÀûÂÊ¡¢×Ü´æ¿î
+    double principal, interest, RoI, deposit;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½Ü´ï¿½ï¿½ï¿½
 
-    /*´Ó¼üÅÌ½ÓÊÕÊý¾Ý*/
-    printf("Input the initial principal of the deposit\(Unit: £¤\):");
+    /*ï¿½Ó¼ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+    printf("Input the initial principal of the deposit\(Unit: ï¿½ï¿½\):");
     principal = GetRealFromKeyboard();
     printf("Input the rate of interest\(Unit: %\):");
     RoI = GetRealFromKeyboard();
 
-    /*¼ÆËã×îÖÕ½á¹û*/
+    /*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½*/
     interest = principal * RoI ;
     deposit = principal + interest;
-    printf("The final deposit id %.2lf£¤", deposit);
+    printf("The final deposit id %.2lfï¿½ï¿½", deposit);
     return 0;
 }
