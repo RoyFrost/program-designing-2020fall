@@ -2,12 +2,7 @@
 #include <stdlib.h>
 #include "..\zylib\zylib.c"
 
-int printline(int length)
-{
-  for(int i = 0; i < length; i++) printf("-");
-  printf("\n");
-  return 0;
-}//打印分割线
+int printline(int length);
 
 int main()
 {
@@ -27,3 +22,10 @@ int main()
   printline(width);
   return 0;
 }
+
+int printline(int length)
+{
+  for(int i = 0; i < length; i++) printf("-");
+  printf("\n");
+  return 0;
+}//打印分割线
