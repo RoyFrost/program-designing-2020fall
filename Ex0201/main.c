@@ -3,22 +3,11 @@
 #include "..\zylib\zylib.c"
 
 /*预先定义一些函数方便写*/
-int check(int num)
-{
-    return num > 0 ? 1 : 0;
-}//检查输入的数的符号，正号输出1，其他输出0
+int check(int num);
 
-int printblanks(int num)
-{
-    for (int i = 0; i < num; i++) printf(" ");
-    return 0;
-}
+int printblanks(int num);
 
-int printstars(int num)
-{
-    for (int i = 0; i < num; i++) printf("*");
-    return 0;
-}
+int printstars(int num);
 
 int main()
 {
@@ -48,3 +37,21 @@ int main()
     }
     return 0;
 }
+
+int check(int num)
+{
+    return num > 0 ? 1 : 0;
+}//检查输入的数的符号，正号输出1，其他输出0
+
+int printblanks(int num)
+{
+    for (int i = 0; i < num; i++) printf(" ");
+    return 0;
+}
+
+int printstars(int num)
+{
+    for (int i = 0; i < num; i++) printf("*");
+    return 0;
+}
+
