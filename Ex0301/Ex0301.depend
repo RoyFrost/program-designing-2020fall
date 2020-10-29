@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1603936911 source:c:\users\royfrost\documents\github\program-designing-2020fall\ex0301\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../zylib/zylib.h"
+
+1602063260 c:\users\royfrost\documents\github\program-designing-2020fall\zylib\zylib.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1602063260 source:c:\users\royfrost\documents\github\program-designing-2020fall\zylib\zylib.c
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"zylib.h"
+
