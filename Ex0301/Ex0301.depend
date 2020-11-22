@@ -23,3 +23,27 @@
 	<ctype.h>
 	"zylib.h"
 
+1520862953 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zylib.c
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"zylib.h"
+
+1448588560 e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zylib.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1604738197 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\ex0301\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../zylib/zylib.h"
+
