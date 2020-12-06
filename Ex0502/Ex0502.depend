@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1520862953 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zylib.c
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"zylib.h"
+
+1448588560 e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zylib.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1448588560 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zyrandom.c
+	<stdlib.h>
+	<time.h>
+	"zyrandom.h"
+	"zylib.h"
+
+1448588560 e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zyrandom.h
+	"zylib.h"
+
+1607223116 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\ex0502\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../zylib/zylib.h"
+	"../zylib/zyrandom.h"
+
