@@ -9,6 +9,7 @@ void Generate30randomnumber(int a[]);
 int main()
 {
     int a[30];
+    Welcome();
     Randomize();
     Generate30randomnumber(a);
     for (int i=0;i<30;i++)

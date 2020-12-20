@@ -17,8 +17,12 @@
 	<string.h>
 	<time.h>
 
-1607345721 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\ex0601\main.c
-	<stdio.h>
+1448588560 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zyrandom.c
 	<stdlib.h>
-	"../zylib/zylib.h"
+	<time.h>
+	"zyrandom.h"
+	"zylib.h"
+
+1448588560 e:\documents\study\2020fall\programming\projects\program-designing-2020fall\zylib\zyrandom.h
+	"zylib.h"
 

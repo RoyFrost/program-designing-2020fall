@@ -17,3 +17,8 @@
 	<string.h>
 	<time.h>
 
+1608463281 source:e:\documents\study\2020fall\programming\projects\program-designing-2020fall\ex0605\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../zylib/zylib.h"
+

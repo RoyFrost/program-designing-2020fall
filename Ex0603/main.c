@@ -7,6 +7,7 @@ void Generate30NoRepeatRandomNumber(int a[]);
 int main()
 {
     int a[30];
+    Welcome();
     Randomize();
     Generate30NoRepeatRandomNumber(a);
     for (int i=0;i<30;i++)
